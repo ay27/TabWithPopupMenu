@@ -39,7 +39,7 @@
                          android:id="@+id/radio_3"/>
         </RadioGroup>
 
-        <com.example.ActionBarTab.ViewIndicator android:layout_width="fill_parent" android:layout_height="3dp"
+        <com.example.TabWithPopupMenu.ViewIndicator android:layout_width="fill_parent" android:layout_height="3dp"
                                                 android:id="@+id/view_indicator"
                                                 android:layout_gravity="bottom"/>
     </FrameLayout>

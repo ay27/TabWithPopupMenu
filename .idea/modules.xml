@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ActionBarTab.iml" filepath="$PROJECT_DIR$/ActionBarTab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TabWithPopupMenu.iml" filepath="$PROJECT_DIR$/TabWithPopupMenu.iml" />
     </modules>
   </component>
 </project>

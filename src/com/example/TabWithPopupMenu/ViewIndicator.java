@@ -1,4 +1,4 @@
-package com.example.ActionBarTab;
+package com.example.TabWithPopupMenu;
 
 import android.content.Context;
 import android.graphics.Canvas;
