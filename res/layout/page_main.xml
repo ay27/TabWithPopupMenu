@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="36dp"
+            >
+
+
+        <RadioGroup android:layout_width="fill_parent" android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                android:id="@+id/radio_group"
+                >
+            <RadioButton android:layout_width="fill_parent" android:layout_height="fill_parent"
+                         android:layout_weight="1"
+                         android:button="@null"
+                         android:text="问题"
+                         android:gravity="center"
+                         android:background="@drawable/button1"
+                         android:textColor="@android:color/white"
+                    android:id="@+id/radio_1"/>
+            <RadioButton android:layout_width="fill_parent" android:layout_height="fill_parent"
+                         android:layout_weight="1"
+                         android:button="@null"
+                         android:text="笔记"
+                         android:gravity="center"
+                         android:background="@drawable/button"
+                         android:textColor="@android:color/white"
+                         android:id="@+id/radio_2"/>
+            <RadioButton android:layout_width="fill_parent" android:layout_height="fill_parent"
+                         android:layout_weight="1"
+                         android:button="@null"
+                         android:text="资料"
+                         android:gravity="center"
+                         android:background="@drawable/button"
+                         android:textColor="@android:color/white"
+                         android:id="@+id/radio_3"/>
+        </RadioGroup>
+
+        <com.example.ActionBarTab.ViewIndicator android:layout_width="fill_parent" android:layout_height="3dp"
+                                                android:id="@+id/view_indicator"
+                                                android:layout_gravity="bottom"/>
+    </FrameLayout>
+
+
+    <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+</LinearLayout>
